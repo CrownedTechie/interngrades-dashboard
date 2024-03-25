@@ -175,7 +175,7 @@ class Dashboard extends Component {
               <option value="female">Female</option>
             </select>
 
-              {window.innerWidth <= 768 && <FaFilter className="filter-icon" onClick={toggleFilter} />}
+              {window.innerWidth <= 768 && <FaFilter className="filter-icon" onClick={(e) => {e.stopPropagation(); toggleFilter} } />}
           </div>
         )}
 
