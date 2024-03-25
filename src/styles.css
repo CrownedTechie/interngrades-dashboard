@@ -153,4 +153,8 @@ body {
     width: 100%; 
     max-width: none;
   }
+
+  .filter-icon {
+    width: 100%;
+  }
 }
